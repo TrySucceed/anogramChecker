@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 
 #define NUMBER_OF_WORDS 1000
 
@@ -24,6 +25,7 @@ int main (int argc, char *argv[], char *envp[])
 	input=changeCase(argv[1]);
 	numbWordsText=scanwords.txt (fromWords, );
 	numbWordsAlpha=scanwords_alpha.txt (fromAlpha, argv[1], );
+//display longest, shortest, first and last alphabetically for each file
 }
 
 string changeCase (string input)
